@@ -68,3 +68,14 @@ app.listen(PORT, function() {
 
 // export the app
 module.exports = app
+
+
+/*
+In express-rate-limit:
+    By default, the MemoryStore is used.
+    Available data stores are:
+        MemoryStore: (default) Simple in-memory option. Does not share state when app has multiple processes or servers.
+        rate-limit-redis: A Redis-backed store, more suitable for large or demanding deployments.
+        rate-limit-memcached: A Memcached-backed store.
+        rate-limit-mongo: A MongoDB-backed store.
+*/
