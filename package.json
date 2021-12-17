@@ -1,0 +1,25 @@
+{
+  "name": "assignment-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node app",
+    "watch": "nodemon app --ignore public/",
+    "start": "npm run watch",
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-ip-filter-middleware": "^1.0.22",
+    "express-rate-limit": "^5.5.1",
+    "jest": "^27.4.4",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  }
+}
