@@ -4,6 +4,6 @@
 ### Start the app
 > npm start
 ### Test the app
-npm test
+> npm test
 
 
